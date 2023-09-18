@@ -19,7 +19,7 @@ function App() {
 
   const [style, setStyle] = useState("false")
 
-  const modalWindow = () => {    
+  const modalWindow = () => {
     if (style === "false") {
       setStyle("true")
     } else {

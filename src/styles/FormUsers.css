@@ -1,91 +1,91 @@
 /* MODAL */
 
 .format {
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    transition: all 0.5s;    
-  }
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s;
+}
 
-  .format {
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    position: fixed;
-    top: -100vh;  
-    height: 100vh;
-    width: 100vw;
-    transition: all 0.5s;
-  }
+.format {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s;
+}
 
-  .true {
-    top: 0;
-  }
+.true {
+  top: 0;
+}
 
-  .false {
-    top: -100vh;
-  } 
+.false {
+  top: -100vh;
+}
 
-  .format form {
-    width: 60%;
-    height: 40%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    font-size: 1.5em;
-    text-align: center;
-  }
+.format form {
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+}
 
-  /* MODAL STYLE */ 
+/* MODAL STYLE */
 
-  .header__form {
-    display: flex;
-    justify-content: center;
-  }
+.header__form {
+  display: flex;
+  justify-content: center;
+}
 
-  .header__btn {
-    padding: 0;
-    max-height: 1.5em;
-    width: 1.5em;
-    border: inherit;
-    background-color: inherit;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-left: 10px;
-  }
+.header__btn {
+  padding: 0;
+  max-height: 1.5em;
+  width: 1.5em;
+  border: inherit;
+  background-color: inherit;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 10px;
+}
 
-  .header__btn:hover {
-    background-color: black;
-    color: white;
-  }
+.header__btn:hover {
+  background-color: black;
+  color: white;
+}
 
-  .header__title {
-    color: white;    
-  }
+.header__title {
+  color: white;
+}
 
-  .format__element {
-     margin: 0.5em;
-  }
+.format__element {
+  margin: 0.5em;
+}
 
-  .btn__format {
-    padding: 0.3em 1em 0.3em 1em;
-    font-size: 15px;
-    border-radius: 0.4em;
-    border: solid black;
-    cursor: pointer;
-    transition: 0.5s;
-  }
+.btn__format {
+  padding: 0.3em 1em 0.3em 1em;
+  font-size: 15px;
+  border-radius: 0.4em;
+  border: solid black;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-  .btn__format:hover {
-    color: white;
-    background-color: black;
-    border-color: white;
-  }
+.btn__format:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
+}

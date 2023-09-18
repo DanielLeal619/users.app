@@ -43,20 +43,20 @@ const FormUsers = ({ createUser, infoUpdate, updateUser, setInfoUpdate, style, m
           </div>
           <div className="format__element">
             <label htmlFor="password">Password</label>
-            <br />            
+            <br />
             <input {...register("password")} type="password" id="password" />
           </div>
-          <div className="format__element">           
+          <div className="format__element">
             <label htmlFor="first_name">First name</label>
             <br />
             <input {...register("first_name")} type="text" id="first_name" />
           </div>
-          <div className="format__element">            
+          <div className="format__element">
             <label htmlFor="last_name">Last name</label>
             <br />
             <input {...register("last_name")} type="text" id="last_name" />
           </div>
-          <div className="format__element">           
+          <div className="format__element">
             <label htmlFor="birthday">Birthday</label>
             <br />
             <input {...register("birthday")} type="date" id="birthday" />
