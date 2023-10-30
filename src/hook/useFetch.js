@@ -7,14 +7,14 @@ export const useFetch = (baseUrl) => {
 
     // READ
     const getApi = (path) => {
-        const url = `${baseUrl}${path}/`
+        const url = `${baseUrl}/`
         axios.get(url)
             .then(res => setInfoApi(res.data))
             .catch(err => console.log(err))
     }
     // CREATE 
     const postApi = (path, data) => {
-        const url = `${baseUrl}${path}/`
+        const url = `${baseUrl}/`
         axios.post(url, data)
             .then(res => {
                 console.log(res.data)
@@ -24,7 +24,7 @@ export const useFetch = (baseUrl) => {
     }
     // DELETE
     const deleteApi = (path, id) => {
-        const url = `${baseUrl}${path}/${id}/`
+        const url = `${baseUrl}/${id}/`
         axios.delete(url)
             .then(res => {
                 console.log(res.data)
@@ -34,7 +34,7 @@ export const useFetch = (baseUrl) => {
     }
     // UPDATE
     const updateApi = (path, id, data) => {
-        const url = `${baseUrl}${path}/${id}/`
+        const url = `${baseUrl}/${id}/`
         axios.put(url, data)
             .then(res => {
                 console.log(res.data)

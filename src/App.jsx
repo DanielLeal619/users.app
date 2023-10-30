@@ -9,7 +9,7 @@ function App() {
   const [infoUpdate, setInfoUpdate] = useState()
 
 
-  const baseUrl = "https://users-crud.academlo.tech"
+  const baseUrl = "http://localhost:8080/users"
 
   const [users, getUsers, createUser, deleteUser, updateUser] = useFetch(baseUrl)
 
